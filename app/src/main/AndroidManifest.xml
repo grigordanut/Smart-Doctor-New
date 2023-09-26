@@ -13,6 +13,18 @@
         android:theme="@style/Theme.SmartDoctor"
         tools:targetApi="31">
         <activity
+            android:name=".PatientPage"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPage"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalPage"
+            android:exported="false" />
+        <activity
             android:name=".FingerPrintScan"
             android:exported="false" />
         <activity
