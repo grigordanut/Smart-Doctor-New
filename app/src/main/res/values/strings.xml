@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Smart Doctor</string>
+    <string name="action_settings">Settings</string>
 
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>
     <string name="btn_nfcMain">NFC</string>
     <string name="btn_loginMain">Log In</string>
     <string name="btn_registerMain">Register</string>
+
+    <!--    Menu Main Page-->
+    <string name="menu_hospitalsList">Hospitals List</string>
+
 </resources>
