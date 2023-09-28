@@ -75,7 +75,7 @@ public class DoctorRegistration extends AppCompatActivity {
         getIntent().hasExtra("HOSPKey");
         hospital_Key = getIntent().getExtras().getString("HOSPKey");
 
-        tVDoctorRegName.setText("Add Doctor to: " + hospital_Name + " hospital.");
+        tVDoctorRegName.setText("Add Doctor to: " + hospital_Name);
 
         btn_DocLog.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -100,7 +100,7 @@ public class HospitalsListAddDoctor extends AppCompatActivity {
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HospitalsListAddDoctor.this);
 
                 alertDialogBuilder
-                        .setTitle("You selected: " + hospital_Name + " Hospital.")
+                        .setTitle("You selected: " + hospital_Name + ".")
                         .setMessage("Press OK to select this Hospital.\nPress CANCEL to delete the selection.")
                         .setCancelable(false)
                         .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
@@ -145,7 +145,7 @@ public class HospitalsListAddDoctor extends AppCompatActivity {
                     hosp_Data = postSnapshot.getValue(Hospitals.class);
                     assert hosp_Data != null;
                     tVHospListAddDoc.setText("Select your Hospital");
-                    hospListAddDoc.add(hosp_Data.getHosp_Name());
+                    hospListAddDoc.add(hosp_Data.getHosp_Name() + " Hospital");
                 }
                 arrayAdapter.notifyDataSetChanged();
             }
