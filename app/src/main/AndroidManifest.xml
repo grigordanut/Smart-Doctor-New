@@ -13,6 +13,21 @@
         android:theme="@style/Theme.SmartDoctor"
         tools:targetApi="31">
         <activity
+            android:name=".PatientsListShowMedRecord"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PatientsListAddMedRecord"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPatientsList"
+            android:exported="false" />
+        <activity
+            android:name=".AddPatient"
+            android:exported="false" />
+        <activity
             android:name=".DoctorRegistration"
             android:exported="false" />
         <activity

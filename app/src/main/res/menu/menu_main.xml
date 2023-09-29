@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" >
-    </item>
-    <item
         android:id="@+id/contactUs"
-        android:orderInCategory="200"
+        android:orderInCategory="100"
         app:showAsAction="ifRoom"
         android:title="@string/menu_hospitalsList">
     </item>
 
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_settings"
+        app:showAsAction="never" >
+    </item>
 
 </menu>
