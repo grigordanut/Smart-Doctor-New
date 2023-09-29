@@ -83,7 +83,7 @@ public class DoctorPage extends AppCompatActivity {
 
                                 assert firebaseUser != null;
 
-                                Intent add_Pat = new Intent(DoctorPage.this, AddPatient.class);
+                                Intent add_Pat = new Intent(DoctorPage.this, PatientRegistration.class);
 
                                 add_Pat.putExtra("HOSPName", user_Doctor.getDoctor_HospName());
                                 add_Pat.putExtra("HOSPKey", user_Doctor.getDoctor_HospKey());

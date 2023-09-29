@@ -151,7 +151,6 @@ public class HospitalRegistration extends AppCompatActivity {
 
                         Toast.makeText(HospitalRegistration.this, "Hospital successfully registered.\nVerification email has been sent!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(HospitalRegistration.this, Login.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
                         finish();
 

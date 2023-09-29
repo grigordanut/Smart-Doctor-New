@@ -2,11 +2,26 @@
     <string name="app_name">Smart Doctor</string>
     <string name="action_settings">Settings</string>
 
+
+
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>
     <string name="btn_nfcMain">NFC</string>
     <string name="btn_loginMain">Log In</string>
     <string name="btn_registerMain">Register</string>
+
+    <!--    Activity Patient Registration-->
+    <string name="tv_patRegHospitalName">Hospital Name</string>
+    <string name="tv_patRegDoctorName">Doctor Name</string>
+    <string name="tv_patRegCardCode">Enter Card Code</string>
+    <string name="tv_patRegUniqueCode">Enter Unique Code</string>
+    <string name="tv_patRegFirstName">Enter First Name</string>
+    <string name="tv_patRegLastName">Enter Last Name</string>
+    <string name="tv_patRegEmail">Enter Email Address</string>
+    <string name="tv_patRegPassword">Enter Password</string>
+    <string name="tv_patRegConfPassword">Confirm Password</string>
+    <string name="btn_patSave">Save</string>
+    <string name="btn_patBack">Back</string>
 
     <!--    Menu Main Page-->
     <string name="menu_hospitalsList">Hospitals List</string>

@@ -25,7 +25,7 @@
             android:name=".DoctorPatientsList"
             android:exported="false" />
         <activity
-            android:name=".AddPatient"
+            android:name=".PatientRegistration"
             android:exported="false" />
         <activity
             android:name=".DoctorRegistration"
