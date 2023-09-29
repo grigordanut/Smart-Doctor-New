@@ -3,7 +3,6 @@
     <string name="action_settings">Settings</string>
 
 
-
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>
     <string name="btn_nfcMain">NFC</string>

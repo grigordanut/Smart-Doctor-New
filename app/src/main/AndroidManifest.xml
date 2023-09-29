@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SmartDoctor"
         tools:targetApi="31">
         <activity
+            android:name=".PatientChangePassword"
+            android:exported="false" />
+        <activity
             android:name=".PatientsListShowMedRecord"
             android:exported="false" />
         <activity
