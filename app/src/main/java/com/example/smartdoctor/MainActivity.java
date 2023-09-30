@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         buttonNFC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent nfc = new Intent(MainActivity.this, NFCActivity.class);
-//                startActivity(nfc);
+                Intent nfc = new Intent(MainActivity.this, NFCActivity.class);
+                startActivity(nfc);
             }
         });
     }

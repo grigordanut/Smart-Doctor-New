@@ -224,7 +224,7 @@ public class DoctorEditProfile extends AppCompatActivity {
     @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        
+
         if (item.getItemId() == R.id.doctorEditProfile_goBack) {
             startActivity(new Intent(DoctorEditProfile.this, DoctorPage.class));
             finish();

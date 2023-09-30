@@ -25,6 +25,12 @@
         android:theme="@style/Theme.SmartDoctor"
         tools:targetApi="31">
         <activity
+            android:name=".PatientNFC"
+            android:exported="false" />
+        <activity
+            android:name=".NFCActivity"
+            android:exported="false" />
+        <activity
             android:name=".HospitalPatientsList"
             android:exported="false" />
         <activity
