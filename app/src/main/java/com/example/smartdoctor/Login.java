@@ -99,7 +99,7 @@ public class Login extends AppCompatActivity {
 
                 if (validateLogInData()) {
 
-                    progressDialog.setMessage("Log in user");
+                    progressDialog.setTitle("Log in user");
                     progressDialog.show();
 
                     firebaseAuth.signInWithEmailAndPassword(email_LogUser, pass_LogUser).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

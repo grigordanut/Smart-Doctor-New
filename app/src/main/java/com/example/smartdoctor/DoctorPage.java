@@ -100,7 +100,6 @@ public class DoctorPage extends AppCompatActivity {
                             public void onClick(View v) {
                                 Intent pat_List = new Intent(DoctorPage.this, DoctorPatientsList.class);
                                 pat_List.putExtra("DOCKey", firebaseUser.getUid());
-
                                 startActivity(pat_List);
                             }
                         });
@@ -154,6 +153,7 @@ public class DoctorPage extends AppCompatActivity {
 
         if (item.getItemId() == R.id.doctor_editProfile) {
             startActivity(new Intent(DoctorPage.this, DoctorEditProfile.class));
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

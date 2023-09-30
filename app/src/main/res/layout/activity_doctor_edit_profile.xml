@@ -1,9 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorEditProfile">
+    android:background="@drawable/bg_pages">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUpDoctorProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Update Doctor's details"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUpDoctorHospName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="Hospital Name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/black">
+
+            <EditText
+                android:id="@+id/etNewDocUCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Unique Code:"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="22sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/black">
+
+            <EditText
+                android:id="@+id/etNewDocFName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="First Name:"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="22sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/black">
+
+            <EditText
+                android:id="@+id/etNewDocLName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Last Name:"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="22sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/black">
+
+            <EditText
+                android:id="@+id/etNewDocFNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Phone Number:"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textSize="22sp"
+                tools:ignore="Autofill" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvDocEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Email Address"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvNewDocEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_edit_text"
+            android:padding="5dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnNewDocSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_fading"
+            android:text="Save Changes"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
