@@ -4,15 +4,12 @@ import android.nfc.FormatException;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 
-import com.example.danut.smartdoctor.record.ParsedNdefRecord;
-import com.example.danut.smartdoctor.record.UriRecord;
-
-import com.example.danut.smartdoctor.parser.NdefMessageParser;
-import com.google.android.gms.common.internal.Preconditions;
-import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.base.Charsets;
+import com.example.smartdoctor.parser.NdefMessageParser;
+import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.base.Preconditions;
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.collect.ImmutableMap;
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.collect.Iterables;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
@@ -23,7 +20,6 @@ public class SmartPoster implements ParsedNdefRecord {
     private final UriRecord mUriRecord;
 
     private final RecommendedAction mAction;
-
 
     private final String mType;
 
@@ -151,6 +147,6 @@ public class SmartPoster implements ParsedNdefRecord {
         if (type == null) {
             return null;
         }
-        return new String(type.getPayload(), Charsets.UTF_8);
+        return new String(type.getPayload(), StandardCharsets.UTF_8);
     }
 }

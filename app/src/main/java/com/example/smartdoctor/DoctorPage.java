@@ -155,6 +155,7 @@ public class DoctorPage extends AppCompatActivity {
         if (item.getItemId() == R.id.doctor_editProfile) {
             startActivity(new Intent(DoctorPage.this, DoctorEditProfile.class));
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

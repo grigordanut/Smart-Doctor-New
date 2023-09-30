@@ -1,14 +1,11 @@
-package com.example.danut.smartdoctor.parser
+package com.example.smartdoctor.parser
 
 import android.nfc.NdefMessage
 import android.nfc.NdefRecord
-
-import com.example.danut.smartdoctor.record.ParsedNdefRecord
-import com.example.danut.smartdoctor.record.UriRecord
+import com.example.smartdoctor.record.ParsedNdefRecord
 import com.example.smartdoctor.record.SmartPoster
 import com.example.smartdoctor.record.TextRecord
-
-import java.util.ArrayList
+import com.example.smartdoctor.record.UriRecord
 
 object NdefMessageParser {
 

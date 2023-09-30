@@ -1,9 +1,6 @@
 package com.example.smartdoctor;
 
-import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
-
-
 
 public interface FingerPrintAuthCallback {
 
