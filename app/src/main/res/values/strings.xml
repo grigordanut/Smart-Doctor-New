@@ -28,6 +28,15 @@
     <string name="et_hospChangeEmailNewEmail">Enter your new Email Address</string>
     <string name="btn_hospChangeEmail">Change Email</string>
 
+    <!--    Activity Hospitals Change Password-->
+    <string name="tv_hospChangePassAuth">Authenticate Hospital Password</string>
+    <string name="et_hospChangePassEmail">Email Address</string>
+    <string name="et_hospChangePassOldPass">Enter your old Password</string>
+    <string name="btn_hospChangePassAuth">Authenticate User</string>
+    <string name="et_hospChangePassNewPass">Enter your new Password</string>
+    <string name="et_hospChangePassConfNewPass">Confirm your new Password</string>
+    <string name="btn_hospChangePassword">Change Password</string>
+
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>
     <string name="btn_nfcMain">NFC</string>
@@ -60,6 +69,9 @@
 
     <!--    Menu Hospital Change Email-->
     <string name="menuHospChangeEmail_goBack">Go Back</string>
+
+    <!--    Menu Hospital Change Password-->
+    <string name="menuHospChangePass_goBack">Go Back</string>
 
     <!--    Menu Hospital Page-->
     <string name="menuHosp_logOut">Log Out</string>
