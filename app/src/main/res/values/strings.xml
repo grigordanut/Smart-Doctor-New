@@ -2,6 +2,23 @@
     <string name="app_name">Smart Doctor</string>
     <string name="action_settings">Settings</string>
 
+    <!--    Add Medical Record-->
+    <string name="tv_addMedRecord">Add Medical Record</string>
+    <string name="tv_medRecPatName">Patient Name</string>
+    <string name="tv_medRecGender">Select Gender*</string>
+    <string name="rb_medRecGenderMale">Male</string>
+    <string name="rb_medRecGenderFemale">Female</string>
+    <string name="et_medRecDateBirth">Date of Birth DD/MM/YYYY</string>
+    <string name="et_medRecPPSN">PPS Number</string>
+    <string name="et_medRecAddress">Address</string>
+    <string name="btn_medRecSave">Save Record</string>
+
+    <!--    Activity Check Unique Code-->
+    <string name="tv_checkUniqueCode">Check your Unique Code</string>
+    <string name="tv_hospitalUniqueCode">Enter H.. or h..for Hospital</string>
+    <string name="tv_doctorUniqueCode">Enter D.. or d..for Doctor</string>
+    <string name="et_checkUniqueCode">Enter your Unique Code</string>
+    <string name="btn_checkUniqueCode">Check Code</string>
 
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>

@@ -18,7 +18,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="20dp"
-            android:text="Check the Unique Code"
+            android:text="@string/tv_checkUniqueCode"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="22sp"
@@ -31,7 +31,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
-            android:text="Enter H.. or h.. for Hospitals"
+            android:text="@string/tv_hospitalUniqueCode"
             android:textColor="@android:color/black"
             android:textSize="22sp" />
 
@@ -42,24 +42,9 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
-            android:text="Enter D.. or d.. for Doctors"
+            android:text="@string/tv_doctorUniqueCode"
             android:textColor="@android:color/black"
             android:textSize="22sp" />
-
-        <TextView
-            android:id="@+id/tvCheckUniqueCode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="20dp"
-            android:padding="5dp"
-            android:text="Unique Code"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -67,14 +52,14 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
-            android:textColorHint="#000000">
+            android:textColorHint="@color/black">
 
             <EditText
                 android:id="@+id/etCheckUniqueCode"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_edit_text"
-                android:hint="Enter your Unique Code"
+                android:hint="@string/et_checkUniqueCode"
                 android:inputType="text"
                 android:padding="10dp"
                 android:textSize="22sp"
@@ -90,8 +75,8 @@
             android:layout_marginEnd="60dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/btn_blue"
-            android:text="Check Code"
-            android:textColor="#ffffff"
+            android:text="@string/btn_checkUniqueCode"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 

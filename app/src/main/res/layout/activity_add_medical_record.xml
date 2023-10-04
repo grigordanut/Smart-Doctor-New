@@ -19,10 +19,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
-            android:text="Add Medical Record"
+            android:text="@string/tv_addMedRecord"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="22sp" />
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/tvMedRecPatName"
@@ -31,7 +32,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="20dp"
-            android:text="Patient Name"
+            android:text="@string/tv_medRecPatName"
             android:textColor="@android:color/black"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -43,8 +44,8 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
-            android:text="Select Gender*"
-            android:textColor="#000000"
+            android:text="@string/tv_medRecGender"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -66,8 +67,8 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="60dp"
-                android:background="#ffffff"
-                android:text="Male"
+                android:background="@color/white"
+                android:text="@string/rb_medRecGenderMale"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -79,8 +80,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="#ffffff"
-                android:text="Female"
+                android:background="@color/white"
+                android:text="@string/rb_medRecGenderFemale"
                 android:textSize="24sp"
                 android:textStyle="bold" />
         </RadioGroup>
@@ -99,7 +100,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_edit_text"
                 android:ems="10"
-                android:hint="Date of Birth DD/MM/YYYY"
+                android:hint="@string/et_medRecDateBirth"
                 android:inputType="date"
                 android:padding="10dp"
                 android:textSize="22sp"
@@ -120,10 +121,11 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_edit_text"
                 android:ems="10"
-                android:hint="Enter PPS Number"
+                android:hint="@string/et_medRecPPSN"
                 android:inputType="text|textCapWords"
                 android:padding="10dp"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                tools:ignore="Autofill" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -140,7 +142,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_edit_text"
                 android:ems="10"
-                android:hint="Enter Address"
+                android:hint="@string/et_medRecAddress"
                 android:inputType="text|textCapWords"
                 android:padding="10dp"
                 android:textSize="22sp"
@@ -156,9 +158,9 @@
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/btn_blue"
-            android:text="Save Record"
-            android:textColor="#ffffff"
-            android:textSize="22sp"
+            android:text="@string/btn_medRecSave"
+            android:textColor="@color/white"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
     </LinearLayout>
