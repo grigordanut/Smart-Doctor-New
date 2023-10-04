@@ -20,6 +20,14 @@
     <string name="et_checkUniqueCode">Enter your Unique Code</string>
     <string name="btn_checkUniqueCode">Check Code</string>
 
+    <!--    Activity Hospital Change Email-->
+    <string name="tv_hospChangeEmailAuth">Authenticate Hospital Email</string>
+    <string name="et_hospChangeEmailOldEmail">Old Email Address</string>
+    <string name="et_hospChangeEmailPass">Enter your Password</string>
+    <string name="btn_hospChangeEmailAuth">Authenticate User</string>
+    <string name="et_hospChangeEmailNewEmail">Enter your new Email Address</string>
+    <string name="btn_hospChangeEmail">Change Email</string>
+
     <!--    Activity Main-->
     <string name="tv_mainPage">Welcome to Smart Doctor</string>
     <string name="btn_nfcMain">NFC</string>
@@ -39,7 +47,25 @@
     <string name="btn_patSave">Save</string>
     <string name="btn_patBack">Back</string>
 
+    <!--    Activity Login-->
+    <string name="tv_userPageLog">Enter your Log in details</string>
+    <string name="et_userEmailLog">Email Address</string>
+    <string name="et_userPasswordLog">Password</string>
+    <string name="btn_userPageLogin">Log In</string>
+    <string name="btn_userPageRegister">Register</string>
+    <string name="tv_userForgottenPass">Forgotten Password</string>
+
     <!--    Menu Main Page-->
     <string name="menu_hospitalsList">Hospitals List</string>
+
+    <!--    Menu Hospital Change Email-->
+    <string name="menuHospChangeEmail_goBack">Go Back</string>
+
+    <!--    Menu Hospital Page-->
+    <string name="menuHosp_logOut">Log Out</string>
+    <string name="menuHosp_editProfile">Edit Profile</string>
+    <string name="menuHosp_changeEmail">Change Email</string>
+    <string name="menuHosp_changePassword">Change Password</string>
+    <string name="menuHosp_closeMenu">Close</string>
 
 </resources>

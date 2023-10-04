@@ -156,6 +156,16 @@ public class DoctorPage extends AppCompatActivity {
             finish();
         }
 
+        if (item.getItemId() == R.id.doctor_changeEmail) {
+            startActivity(new Intent(DoctorPage.this, DoctorChangeEmail.class));
+            finish();
+        }
+
+        if (item.getItemId() == R.id.doctor_changePassword) {
+            startActivity(new Intent(DoctorPage.this, DoctorChangePassword.class));
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

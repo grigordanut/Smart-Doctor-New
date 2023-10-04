@@ -127,7 +127,7 @@ class NFCActivity : AppCompatActivity() {
         alertDialog.show()
     }
 
-    //for Button Chek
+    //for Button Check
     private fun alertNoNFCFound() {
         val alertDialogBuilder = AlertDialog.Builder(this)
         alertDialogBuilder
@@ -153,6 +153,7 @@ class NFCActivity : AppCompatActivity() {
     }
 
     override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
         setIntent(intent)
         resolveIntent(intent)
     }

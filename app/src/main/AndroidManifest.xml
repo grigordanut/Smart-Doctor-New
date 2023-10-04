@@ -25,6 +25,21 @@
         android:theme="@style/Theme.SmartDoctor"
         tools:targetApi="31">
         <activity
+            android:name=".HospitalChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalChangeEmail"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorChangeEmail"
+            android:exported="false" />
+        <activity
             android:name=".PatientNFC"
             android:exported="false" />
         <activity

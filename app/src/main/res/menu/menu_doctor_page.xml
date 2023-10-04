@@ -24,6 +24,12 @@
         android:orderInCategory="200"
         android:title="Change Password"
         app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/doctor_closeMenu"
+        android:orderInCategory="200"
+        android:title="Close"
+        app:showAsAction="never"/>
 </menu>
 
 
